@@ -27,15 +27,7 @@
 		snowmanFrame.origin.x = gutter;
 	}
 
-	[NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
-		NSUInteger modifiers = [[NSApp currentEvent] modifierFlags];
-		if (modifiers & NSShiftKeyMask) {
-			context.duration *= 10.0;
-		}
-		[[self.snowman animator] setFrame:snowmanFrame];
-	} completionHandler:^{
-
-	}];
+	[[self.snowman animator] setFrame:snowmanFrame];
 }
 
 @end

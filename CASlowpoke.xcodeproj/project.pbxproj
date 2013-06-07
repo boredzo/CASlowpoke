@@ -13,6 +13,7 @@
 		31135939176288D7005B3C43 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 31135937176288D7005B3C43 /* Credits.rtf */; };
 		3113593C176288D7005B3C43 /* PRHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113593B176288D7005B3C43 /* PRHAppDelegate.m */; };
 		3113593F176288D7005B3C43 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3113593D176288D7005B3C43 /* MainMenu.xib */; };
+		3113594717628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 3113594617628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3113593A176288D7005B3C43 /* PRHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRHAppDelegate.h; sourceTree = "<group>"; };
 		3113593B176288D7005B3C43 /* PRHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRHAppDelegate.m; sourceTree = "<group>"; };
 		3113593E176288D7005B3C43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		3113594517628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRHAutoSlowDownAnimationsApplication.h; sourceTree = "<group>"; };
+		3113594617628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRHAutoSlowDownAnimationsApplication.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 			children = (
 				3113593A176288D7005B3C43 /* PRHAppDelegate.h */,
 				3113593B176288D7005B3C43 /* PRHAppDelegate.m */,
+				3113594517628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.h */,
+				3113594617628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.m */,
 				3113593D176288D7005B3C43 /* MainMenu.xib */,
 				3113592F176288D7005B3C43 /* Supporting Files */,
 			);
@@ -169,6 +174,7 @@
 			files = (
 				31135935176288D7005B3C43 /* main.m in Sources */,
 				3113593C176288D7005B3C43 /* PRHAppDelegate.m in Sources */,
+				3113594717628C80005B3C43 /* PRHAutoSlowDownAnimationsApplication.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
