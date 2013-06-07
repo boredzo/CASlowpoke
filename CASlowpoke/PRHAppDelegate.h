@@ -11,5 +11,7 @@
 @interface PRHAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (weak) IBOutlet NSButton *snowman;
+- (IBAction)moveSnowman:(id)sender;
 
 @end
