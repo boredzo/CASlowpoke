@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CASlowpoke' target in the 'CASlowpoke' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
